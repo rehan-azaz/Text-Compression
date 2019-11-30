@@ -1,0 +1,11 @@
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\bin\Debug\File Compression.exe.config
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\bin\Debug\File Compression.exe
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\bin\Debug\File Compression.pdb
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File Compression.csprojAssemblyReference.cache
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File_Compression.Form1.resources
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File_Compression.Properties.Resources.resources
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File Compression.csproj.GenerateResource.cache
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File Compression.exe
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File Compression.pdb
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File_Compression.Compress.resources
+C:\Users\I'm Libra\source\repos\File Compression\File Compression\obj\Debug\File_Compression.Decompress.resources
