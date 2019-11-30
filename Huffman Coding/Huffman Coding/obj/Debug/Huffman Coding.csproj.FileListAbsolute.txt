@@ -1,0 +1,6 @@
+C:\Users\I'm Libra\source\repos\Huffman Coding\Huffman Coding\bin\Debug\Huffman Coding.exe.config
+C:\Users\I'm Libra\source\repos\Huffman Coding\Huffman Coding\bin\Debug\Huffman Coding.exe
+C:\Users\I'm Libra\source\repos\Huffman Coding\Huffman Coding\bin\Debug\Huffman Coding.pdb
+C:\Users\I'm Libra\source\repos\Huffman Coding\Huffman Coding\obj\Debug\Huffman Coding.csprojAssemblyReference.cache
+C:\Users\I'm Libra\source\repos\Huffman Coding\Huffman Coding\obj\Debug\Huffman Coding.exe
+C:\Users\I'm Libra\source\repos\Huffman Coding\Huffman Coding\obj\Debug\Huffman Coding.pdb
