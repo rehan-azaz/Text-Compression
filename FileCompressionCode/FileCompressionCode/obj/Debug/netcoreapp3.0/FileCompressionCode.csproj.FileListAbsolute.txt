@@ -1,0 +1,11 @@
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\bin\Debug\netcoreapp3.0\FileCompressionCode.exe
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\bin\Debug\netcoreapp3.0\FileCompressionCode.deps.json
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\bin\Debug\netcoreapp3.0\FileCompressionCode.runtimeconfig.json
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\bin\Debug\netcoreapp3.0\FileCompressionCode.runtimeconfig.dev.json
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\bin\Debug\netcoreapp3.0\FileCompressionCode.dll
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\bin\Debug\netcoreapp3.0\FileCompressionCode.pdb
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\obj\Debug\netcoreapp3.0\FileCompressionCode.csprojAssemblyReference.cache
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\obj\Debug\netcoreapp3.0\FileCompressionCode.AssemblyInfoInputs.cache
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\obj\Debug\netcoreapp3.0\FileCompressionCode.AssemblyInfo.cs
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\obj\Debug\netcoreapp3.0\FileCompressionCode.dll
+E:\Desktop\Fall2019\AOA\FCP\FileCompressionCode\FileCompressionCode\obj\Debug\netcoreapp3.0\FileCompressionCode.pdb
