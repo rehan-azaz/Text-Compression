@@ -6,60 +6,96 @@ using System.Threading.Tasks;
 
 namespace Huffman_Coding
 {
-    class ImpNode:IComparable<ImpNode>
+    public class HuffmanNode
     {
-        public string symbol;
-        public int frequency;
-        public string code;
-        public ImpNode parent;
-        public ImpNode right;
-        public ImpNode left;
-        public bool leaf;
-
-        public ImpNode(string input)
+        string symbol;
+        int frequency;
+        string code;
+        HuffmanNode left;
+        HuffmanNode right;
+        HuffmanNode parent;
+        List<HuffmanNode> nodes = new List<HuffmanNode>();
+        int Size
         {
-            symbol = input;
-            frequency = 1;
-            parent = null;
-            right = null;
-            left = null;
-            leaf = true;
-            code = "";
-
-
-        }
-        public ImpNode(ImpNode n1, ImpNode n2)
-        {
-            leaf = false;
-            parent = null;
-            code = "";
-            if (n1.frequency >= n2.frequency)
+            get
             {
-                right = n1;
-                left = n2;
-                right.parent = left.parent = this;
-                symbol = n1.symbol + n2.symbol;
-                frequency = n1.frequency + n2.frequency;
+                return nodes.Count;
             }
-            else if (n1.frequency < n2.frequency)
+        }
+        public HuffmanNode()
+        {
+        }
+        public HuffmanNode(string c, int f)
+        {
+            this.Symbol = c;
+            this.Frequency = f;
+        }
+
+        public HuffmanNode(string symbol, int frequency, string code, HuffmanNode left, HuffmanNode right, HuffmanNode parent)
+        {
+            this.Symbol = symbol;
+            this.Frequency = frequency;
+            this.Code = code;
+            this.Left = left;
+            this.Right = right;
+            this.Parent = parent;
+        }
+
+
+        public string Symbol { get => symbol; set => symbol = value; }
+        public int Frequency { get => frequency; set => frequency = value; }
+        public string Code { get => code; set => this.code = value; }
+        internal HuffmanNode Left { get => left; set => left = value; }
+        internal HuffmanNode Right { get => right; set => right = value; }
+        internal HuffmanNode Parent { get => parent; set => parent = value; }
+        public List<HuffmanNode> GetList(string text)
+        {
+            var charsToRemove = new string[] { "\n", "\r" };
+            foreach (var c in charsToRemove)
             {
-                right = n2;
-                left = n1;
-                left.parent = right.parent = this;
-                symbol = n1.symbol + n2.symbol;
-                frequency = n1.frequency + n2.frequency;
-
+                text = text.Replace(c, string.Empty);
             }
 
+            for (int i = 0; i < text.Length; i++)
+            {
+                HuffmanNode n = new HuffmanNode();
+                n.symbol = text[i].ToString();
+                n.frequency++;
+                bool flag = false;
+                for (int j = 0; j < nodes.Count; j++)
+                {
+                    if (n.symbol == nodes[j].symbol)
+                    {
+                        flag = true;
+                    }
+                }
+                if (!flag)
+                {
+                    nodes.Add(n);
+                }
+                else
+                {
+                    for (int q = 0; q < nodes.Count; q++)
+                    {
+                        if (nodes[q].symbol == text[i].ToString())
+                        {
+                            nodes[q].frequency++;
+                        }
+                    }
+                }
+            }
+            return this.nodes;
         }
-        public int CompareTo(ImpNode node)
+        public void Display()
         {
-            return this.frequency.CompareTo(node.frequency);
+            Console.WriteLine(nodes.Count);
+            Console.WriteLine("Symbol,\tFrequency");
+            foreach (HuffmanNode n in nodes)
+            {
+                Console.WriteLine(n.Symbol + ",\t" + n.Frequency);
+            }
         }
-        public void increaseinFrequency()
-        {
-            frequency++;
-        }
+    }
 
-    }  
+} 
 }
